@@ -62,7 +62,7 @@
         border: 3px solid white;
         border-radius: 2px;
         background-color:#2d3c54;
-        height: 100px;
+        height: 60px;
         flex-grow: 1;
         color: white;
         justify-content: right;
@@ -76,7 +76,7 @@
     }
     .first-mode-row {
         display: flex;
-        height: 40px;
+        height: 30px;
         gap: 5px;
         padding-left: 13px;
     }
@@ -121,7 +121,7 @@
         background-color: #2d3c54;
         color: white;
         width: 300px;
-        height: 55px;
+        height: 40px;
         border-radius: 5px;
         gap: 2px;
     }
