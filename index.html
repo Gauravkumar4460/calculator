@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calc">
+           <div class="top">
+                <div id="scientific-id" >
+                    <button id="scientific-button">&#9776</button>
+                    <h2> Scientific</h2>
+                </div>
+                <button id="history-button">&#x1F551</button>
+           </div>
+           <div id="result-box">
+                0
+           </div>
+           <div>
+               <div class="mode">
+                  <div class="first-mode-row">
+                       <button>DEG</button>
+                       <button>F-E</button>
+                  </div>
+                  <div class="second-mode-row">
+                  <button>MC</button>
+                  <button>MR</button>
+                  <button>M+</button>
+                  <button>M-</button>
+                  <button>MS</button>
+                  <button id="drop-down">M</button>
+                  </div>
+               </div>
+               <div class="operators">
+                  <div class="first-row-operators">
+                    <button>Trigonometry &#9660</button>
+                    <button>function &#9660</button>
+                        
+                   </div>
+
+                   <div class="second-row-operators">
+                      <button onclick="calculation+='2*3.14159265358'; printToresult();">2<sup>&#x03C0</sup></button>
+                      <button onclick="calculation+='3.14159265358'; printToresult();">&#x03C0</button>
+                      <button onclick="calculation+='2.718281828459';printToresult();">e</button>
+                      <button onclick="calculation='';
+                      printToresult();">C</button>
+                      <button onclick="removeLastChar();">&#8592</button>
+                    </div>
+
+                  <div class="third-row-operators">
+                      <button onclick="makeSquare();">x<sup>2</sup></button>
+                      <button onclick="makeReciprocal();">1/x</button>
+                      <button onclick="findMod();">|x|</button>
+                      <button onclick="
+                      calculation+='e+';
+                      printToresult();">exp</button>
+                      <button onclick="
+                      calculation+='%';
+                      printToresult(); ">mod</button>
+                  </div>
+                  <div class="fourth-row-operators">
+                    <button onclick="findRoot();">x<sup>1/2</sup></button>
+                    <button onclick="
+                    calculation+='(';
+                    printToresult();">(</button>
+                    <button onclick="
+                    calculation+=')';
+                    printToresult();">)</button>
+                    <button onclick="findFact();
+                    ">n!</button>
+
+                    <button onclick="
+                    calculation+=' / ';
+                    printToresult();">&#247</button>
+
+                  </div>
+                  <div class="fifth-row-operators">
+                    <button onclick="
+                    calculation+=' ** ';
+                    printToresult();">x<sup>y</sup>
+                    </button>
+                    <button onclick="
+                    calculation+='7';
+                    printToresult();">7</button>
+                    <button onclick="
+                    calculation+='8';
+                   
+                    printToresult();">8</button>
+                    <button onclick="
+                    calculation+='9';
+                   
+                    printToresult();">9</button>
+
+                    <button onclick="
+                    calculation+=' * ';
+                    printToresult();"> &#215</button>
+
+                  </div>
+                  <div class="sixth-row-operators">
+                    <button onclick="findPowOf10();">10<sup>x</sup></button>
+
+                    <button onclick="
+                    calculation+='4';
+                    printToresult();">4</button>
+                    <button onclick="
+                    calculation+='5';
+                    
+                    printToresult();">5</button>
+                    <button onclick="
+                    calculation+='6';
+                    
+                    printToresult();">6</button>
+
+                    <button onclick="
+                    calculation+=' - ';
+                    printToresult();">-</button>
+
+                  </div>
+                  <div class="seventh-row-operators">
+                    <button onclick="findLog();">log</button>
+                    <button onclick="
+                    calculation+='1';
+                    
+                    printToresult();">1</button>
+                    <button onclick="
+                    calculation+='2';
+                   
+                    printToresult();">2</button>
+                    <button onclick="
+                    calculation+='3';
+                    printToresult();">3</button>
+
+                    <button onclick="
+                    calculation+=' + ';
+                    printToresult();">+</button>
+
+                  </div>
+                  <div class="eighth-row-operators">
+                    <button onclick="findLn();">ln</button>
+                    <button onclick="changeSign();">+/-</button>
+                    <button onclick="calculation+='0';
+                    printToresult();">0</button>
+                    <button onclick="
+                    calculation+='.';
+                    printToresult();">.</button>
+
+                    <button id="equal-button" onclick="
+                    findExp();
+                    calculation=eval(calculation);
+                    printToresult();">=</button>
+
+                  </div>
+                  </div>
+               </div>
+           </div>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+</html>
