@@ -66,7 +66,7 @@
         flex-grow: 1;
         color: white;
         justify-content: right;
-        align-items: center;
+        align-items: flex-end;
         padding-right: 5px;
     }
     .mode {
