@@ -120,7 +120,7 @@
         background-color: #2d3c54;
         color: white;
         width: 300px;
-        height: 56px;
+        height: 51px;
         border-radius: 5px;
         gap: 2px;
     }
@@ -166,8 +166,174 @@
         background-color: #3399ff;
     }
 }
-
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 601px) and (max-width: 950px){
+    body {
+        background-color: black;
+        padding: 0px;
+    }
+    .calc {
+       display: flex;
+       flex-direction: column;
+       height: 100vh;
+       margin-top: -5px;
+       margin-bottom: -5px;
+       margin-left: 100px;
+       margin-right: 100px;
+       background-color: #2d3c54;
+    }
+    .top {
+        display: flex;
+        justify-content: space-between;
+        background-color: #2d3c54;
+        color: white;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    #scientific-id {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    h2{
+        padding: 0px;
+        margin: 0px;
+    }
+    #scientific-button{
+        background-color: #2d3c54;
+        padding: 0px;
+        margin: 0px;
+        color: white;
+        border-radius: 20%;
+        border-color: transparent;
+        width: 25px;
+    }
+    #scientific-button:hover{
+         background-color:grey;
+    }
+    #history-button{
+        background-color: #2d3c54;
+        padding: 0px;
+        margin: 0px;
+        border-radius: 20%;
+        border-color: transparent;
+        width: 25px;
+    }
+    #history-button:hover {
+        background-color: grey;
+    }
+    #result-box {
+        display: flex;
+        border: 3px solid white;
+        border-radius: 2px;
+        background-color:#2d3c54;
+        flex-grow: 1;
+        height: 40px;
+        color: white;
+        justify-content: right;
+        align-items: center;
+        padding-right: 5px;
+    }
+    .mode {
+        display: flex;
+        flex-direction: column;
+    }
+    .first-mode-row {
+        display: flex;
+        height: 40px;
+        gap: 5px;
+        padding-left: 13px;
+    }
+    .first-mode-row button {
+        background-color: #2d3c54;
+        padding: 3px;
+        color: white;
+        border-radius: 5px;
+        margin-top: 5px;
+        width: 60px;
+        border-color: transparent;
+    }
+    .first-mode-row button:hover {
+        background-color: grey;
+    }
+    .second-mode-row {
+        display: flex;
+        border-bottom: 3px solid grey;
+    }
+    .second-mode-row button {
+        color: white;
+        background-color: #2d3c54;
+        border-radius: 5px;
+        border-color: transparent;
+        flex-basis: 100%;
+        height: 40px;
+    }
+    .second-mode-row button:hover {
+        background-color: grey;
+    }
+    .operators {
+        display: flex;
+        flex-direction: column;
+    }
+    .first-row-operators {
+        display: flex;
+        flex-direction: row;
+        flex-basis: 100%;
+        height: 35px;
+    }
+    .operators button {
+        background-color: #2d3c54;
+        color: white;
+        width: 300px;
+        height: 51px;
+        border-radius: 5px;
+        gap: 2px;
+    }
+    .operators button:hover {
+        background-color: grey;
+    }
+    .second-row-operators {
+        display: flex;
+        flex-basis: 100%;
+        height: 35px;
+    }
+    .third-row-operators {
+        display: flex;
+        flex-basis: 100%;
+        height: 35px;
+    }
+    .fourth-row-operators {
+        display: flex;
+        flex-basis: 100%;
+        height: 35px;
+    }
+    .fifth-row-operators {
+        display: flex;
+        flex-basis: 100%;
+        height: 35px;
+    }
+    .sixth-row-operators {
+        display: flex;
+        flex-basis: 100%;
+        height: 35px;
+    }
+    .seventh-row-operators {
+        display: flex;
+        flex-basis: 100%;
+        height: 35px;
+    }
+    .eighth-row-operators {
+        display: flex;
+        flex-basis: 100%;
+        height: 35px;
+    }
+    #equal-button {
+        background-color: #3399ff;
+    }
+}
+@media screen and (min-width: 951px) {
     body {
         background-color: black;
         padding: 0px;
