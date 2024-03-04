@@ -166,19 +166,8 @@
         background-color: #3399ff;
     }
 }
-@media (min-width: 401px) and (max-width: 700px) {
-     .calc {
-       display: flex;
-       flex-direction: column;
-       height: 100vh;
-       margin-top: -5px;
-       margin-bottom: -5px;
-       margin-left: 100px;
-       margin-right: 100px;
-       background-color: #2d3c54;
-    }
-}
-@media screen and (min-width: 701px) {
+
+@media screen and (min-width: 401px) {
     body {
         background-color: black;
         padding: 0px;
