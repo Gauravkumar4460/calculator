@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 350px) {
     body {
         background-color: black;
         padding: 0px;
@@ -167,7 +167,7 @@
     }
 }
 
-@media screen and (min-width: 301px) {
+@media screen and (min-width: 351px) {
     body {
         background-color: black;
         padding: 0px;
